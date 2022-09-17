@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yeni Köşe Yazısı</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <style>
+    .bg {
+      background-image: url(bg.jpg);
+      height: 300px;
+      position: relative;
+    }
+
+    .bg h1 {
+      z-index: 1;
+      font-size: 60px;
+    }
+
+    .overlay {
+      width: 100% !important;
+      height: 100% !important;
+      background-color: rgba(0, 0, 0, .4);
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light border-0">
+  <a class="navbar-brand" href="#">Köse Yazısı</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Yazılar <span class="sr-only">(current)</span></a>
+      </li>
+
+    </ul>
+    <ul class="navbar-nav my-2 my-lg-0">
+      <li class="nav-item mr-sm-2">
+        <a class="nav-link" href="#">Admin</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container-fluid bg p-0 d-flex justify-content-center align-items-center">
+  <div class="overlay"></div>
+  <h1 class="text-center text-white">Yazı baslıgı</h1>
+</div>
+<div class="container mt-5 d-flex flex-column justify-content-center align-items-center">
+  <blockquote class="blockquote">
+    <h3>Yazı baslıgı</h3>
+    <p>Alt Baslık</p>
+    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eveniet hic ipsa iusto molestias quaerat quisquam tenetur voluptatem! Commodi debitis et facilis impedit in necessitatibus odio, repudiandae sapiente sed veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet atque dicta dignissimos distinctio dolores enim inventore iure nam quam quis repellat ullam voluptatem! Amet fuga laudantium optio tempore. Ab? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam commodi harum nemo qui quos reiciendis repudiandae sequi, ut. Adipisci assumenda ducimus explicabo harum impedit minima porro, unde. Ad, neque, quas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, aut dolore impedit mollitia
+      nobis perspiciatis quis reprehenderit sed? Amet beatae debitis dicta libero magnam odio perferendis qui sit velit
+      voluptatibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+  </blockquote>
+
+</div>
+</body>
+</html>
