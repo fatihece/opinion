@@ -1,6 +1,6 @@
-# kose-yazisi-uygulamasi
+# New Current Articles
 
-> My kickass Nuxt.js project
+> My Nuxt.js project
 
 ## Build Setup
 
