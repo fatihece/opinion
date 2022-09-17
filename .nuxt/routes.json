@@ -3,36 +3,42 @@
     "name": "admin",
     "path": "/admin",
     "component": "C:\\\\Users\\\\fatih\\\\Desktop\\\\opinion\\\\pages\\\\admin\\\\index.vue",
-    "chunkName": "pages/admin/index"
+    "chunkName": "pages/admin/index",
+    "_name": "_042b9108"
+  },
+  {
+    "name": "posts",
+    "path": "/posts",
+    "component": "C:\\\\Users\\\\fatih\\\\Desktop\\\\opinion\\\\pages\\\\posts\\\\index.vue",
+    "chunkName": "pages/posts/index",
+    "_name": "_799ff710"
   },
   {
     "name": "admin-new-post",
     "path": "/admin/new-post",
     "component": "C:\\\\Users\\\\fatih\\\\Desktop\\\\opinion\\\\pages\\\\admin\\\\new-post.vue",
-    "chunkName": "pages/admin/new-post"
-  },
-  {
-    "name": "posts-inedx",
-    "path": "/posts/inedx",
-    "component": "C:\\\\Users\\\\fatih\\\\Desktop\\\\opinion\\\\pages\\\\posts\\\\inedx.vue",
-    "chunkName": "pages/posts/inedx"
+    "chunkName": "pages/admin/new-post",
+    "_name": "_221fa273"
   },
   {
     "name": "admin-postId",
     "path": "/admin/:postId",
     "component": "C:\\\\Users\\\\fatih\\\\Desktop\\\\opinion\\\\pages\\\\admin\\\\_postId\\\\index.vue",
-    "chunkName": "pages/admin/_postId/index"
+    "chunkName": "pages/admin/_postId/index",
+    "_name": "_77db4ede"
   },
   {
     "name": "posts-postId",
     "path": "/posts/:postId",
     "component": "C:\\\\Users\\\\fatih\\\\Desktop\\\\opinion\\\\pages\\\\posts\\\\_postId\\\\index.vue",
-    "chunkName": "pages/posts/_postId/index"
+    "chunkName": "pages/posts/_postId/index",
+    "_name": "_62b3453c"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\fatih\\\\Desktop\\\\opinion\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_d6fe636e"
   }
 ]
