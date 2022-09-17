@@ -1,8 +1,8 @@
 {
-  "name": "kose-yazisi-uygulamasi",
+  "name": "new_current_articles",
   "version": "1.0.0",
-  "description": "My kickass Nuxt.js project",
-  "author": "Gökhan Kandemir",
+  "description": "My Nuxt.js project",
+  "author": "Fatih Yürek",
   "private": true,
   "scripts": {
     "dev": "nuxt",

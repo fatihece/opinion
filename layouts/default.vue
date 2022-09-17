@@ -1,10 +1,21 @@
 <template>
   <div>
+    <Header />
+    <Banner />
     <nuxt/>
   </div>
 </template>
-
-<style>
+<script>
+  import Header from "@/components/common/Header"
+  import Banner from "@/components/common/Banner"
+  export default{
+    components:{
+      Header,
+      Banner
+    }
+  }
+</script>
+<!-- <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -52,4 +63,4 @@ html {
   color: #fff;
   background-color: #35495e;
 }
-</style>
+</style> -->

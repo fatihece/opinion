@@ -4,6 +4,11 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _042b9108 = () => interopDefault(import('..\\pages\\admin\\index.vue' /* webpackChunkName: "pages/admin/index" */))
+const _221fa273 = () => interopDefault(import('..\\pages\\admin\\new-post.vue' /* webpackChunkName: "pages/admin/new-post" */))
+const _133d31cc = () => interopDefault(import('..\\pages\\posts\\inedx.vue' /* webpackChunkName: "pages/posts/inedx" */))
+const _77db4ede = () => interopDefault(import('..\\pages\\admin\\_postId\\index.vue' /* webpackChunkName: "pages/admin/_postId/index" */))
+const _62b3453c = () => interopDefault(import('..\\pages\\posts\\_postId\\index.vue' /* webpackChunkName: "pages/posts/_postId/index" */))
 const _d6fe636e = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -18,6 +23,26 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/admin",
+    component: _042b9108,
+    name: "admin"
+  }, {
+    path: "/admin/new-post",
+    component: _221fa273,
+    name: "admin-new-post"
+  }, {
+    path: "/posts/inedx",
+    component: _133d31cc,
+    name: "posts-inedx"
+  }, {
+    path: "/admin/:postId",
+    component: _77db4ede,
+    name: "admin-postId"
+  }, {
+    path: "/posts/:postId",
+    component: _62b3453c,
+    name: "posts-postId"
+  }, {
     path: "/",
     component: _d6fe636e,
     name: "index"
