@@ -2,7 +2,11 @@
   <div
     class="container-fluid mt-5 d-flex flex-wrap justify-content-center align-items-center"
   >
-    <Post v-for="index in 5" v-bind:key="index" :isAdmin= "isAdmin"/>
+    <Post
+    :post="post"
+    v-for="post in posts" 
+    :key="post.id"
+    :isAdmin= "isAdmin"/>
   </div>
 </template>
 <script>
@@ -16,7 +20,11 @@ export default {
     required:false,
     default:false,
     type:Boolean
+  },
+  posts:{
+    required:true,
+    type:Array
   }
- }
+ } 
 };
 </script>
